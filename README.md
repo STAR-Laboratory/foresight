@@ -8,7 +8,7 @@ This source code is available under the [Apache 2.0 License](LICENSE).
 
 |Baseline|Foresight|
 |---|---|
-|[<img src="assets/figures/baseline_video_1.mp4" width="">]()|[<img src="assets/figures/foresight_video_1.mp4" width="">]()|
+|[<img src="assets/figures/baseline_video_1.gif" width="">]()|[<img src="assets/figures/foresight_video_1.gif" width="">]()|
 
 ## ⚙️ Environment Setup
 
