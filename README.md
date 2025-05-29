@@ -21,14 +21,14 @@ conda activate foresight-env
 cd VideoSys
 pip install -e .
 ```
-<br></br>
+
 ## 💻 System Requirements
 
 Right now, **Foresight** has been tested on a 1xA100 node for `Open-Sora`, `Latte` and
 `CogVideoX` models on single GPU.
 
-We welcome contributions evaluate **Foresight** across different models.
-<br></br>
+We welcome contributions to evaluate **Foresight** across different models.
+
 ## 🏁 Using Foresight
 
 ### Supported Models
