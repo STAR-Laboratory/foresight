@@ -6,6 +6,10 @@ This repository contains the source code implementation of [Foresight](https://f
 
 This source code is available under the [Apache 2.0 License](LICENSE).
 
+|Baseline|Foresight|
+|---|---|
+|[<img src="assets/figures/baseline_video_1.mp4" width="">]()|[<img src="assets/figures/foresight_video_1.mp4" width="">]()|
+
 ## ⚙️ Environment Setup
 
 #### conda Environment
