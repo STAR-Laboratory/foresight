@@ -15,10 +15,7 @@ conda env create -n foresight-env python=3.10 -y
 conda activate foresight-env
 ```
 
-#### VideoSys
-
 ```bash
-cd VideoSys
 pip install -e .
 ```
 
