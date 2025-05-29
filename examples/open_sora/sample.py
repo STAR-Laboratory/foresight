@@ -71,8 +71,7 @@ def run_foresight():
     )
     engine = VideoSysEngine(config)
 
-    # prompt = "Sunset over the sea."
-    prompt = "Snow falling over multiple houses and trees on winter landscape against night sky. Christmas celebration and festivity concept."
+    prompt = "Sunset over the sea."
     video = engine.generate(
         prompt=prompt,
         guidance_scale=7.5,

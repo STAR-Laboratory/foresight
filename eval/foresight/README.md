@@ -1,15 +1,15 @@
-# Evaluation of Pyramid Attention Broadcast
+# Foresight Experiments
 
 We first generate videos according to VBench's prompts.
 
-And then calculate Vbench, PSNR, LPIPS and SSIM based on the video generated.
+And then calculate VBench, PSNR, LPIPS, SSIM adn FVD based on the video generated.
 
 1. Generate video
 ```
-cd eval/pab
+cd eval/foresight
 python experiments/latte.py
 python experiments/opensora.py
-python experiments/open_sora_plan.py
+python experiments/cogvideox.py
 ```
 
 2. Calculate Vbench score

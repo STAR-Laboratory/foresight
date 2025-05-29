@@ -45,7 +45,7 @@ def run_foresight():
     foresight_config = LatteFORESIGHTConfig(
         warmup=8,
         recalculate=2,
-        threshold=1,
+        threshold=0.5,
     )
     config = LatteConfig(
         "maxin-cn/Latte-1", enable_foresight=True, foresight_config=foresight_config

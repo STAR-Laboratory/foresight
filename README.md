@@ -14,7 +14,6 @@ You can create a new conda environment using script.
 conda env create -n foresight-env python=3.10 -y
 conda activate foresight-env
 ```
-<br></br>
 
 #### VideoSys
 
@@ -22,8 +21,64 @@ conda activate foresight-env
 cd VideoSys
 pip install -e .
 ```
+<br></br>
+## 💻 System Requirements
+
+Right now, **Foresight** has been tested on a 1xA100 node for `Open-Sora`, `Latte` and
+`CogVideoX` models on single GPU.
+
+We welcome contributions evaluate **Foresight** across different models.
+<br></br>
+## 🏁 Using Foresight
+
+### Supported Models
+
+Currently Foresight supports Open-Sora, Latte and CogVideoX models.
+
+### Foresight Configuration
+
+Foresight requires configuring below parameters to control the ***warmup phase*** and ***reuse phase*** reuse.
+
+#### Parameters
+
+- **warmup**: No of denoising steps used during warmup phase.
+  - Type: Integer
+
+- **recalculate**: Mandatory computation interval.
+  - Format: Integer
+
+- **threshold**: Scaling factor for threshold.
+  - Type: Float
+
+#### Example Configuration
+
+```yaml
+warmup: 5
+recalculate: 2
+threshold: 0.5
+```
+#### Example Runs
+
+```
+cd examples/open_sora
+python sample.py
+```
+
+```
+cd examples/latte
+python sample.py
+```
+
+```
+cd examples/cogvideox
+python sample.py
+```
 
 
+## Thank You
+
+Foresight has been implemented on top of [VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys), an easy and efficient system for video generation.
+<br></br>
 
 ## 📝 Citation
 ```

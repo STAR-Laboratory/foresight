@@ -39,7 +39,7 @@ def run_foresight():
     foresight_config = CogVideoXFORESIGHTConfig(
         warmup=8,
         recalculate=2,
-        threshold=1,
+        threshold=0.5,
     )
     config = CogVideoXConfig(
         "THUDM/CogVideoX-2b", enable_foresight=True, foresight_config=foresight_config
