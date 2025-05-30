@@ -6,10 +6,10 @@ This repository contains the source code implementation of [Foresight](https://f
 
 This source code is available under the [Apache 2.0 License](LICENSE).
 
-|Baseline|Foresight|
+|Baseline|Static Reuse|Foresight (Adaptive Reuse)|
 |---|---|
-|[<img src="assets/figures/baseline_video_1.gif" width="">]()|[<img src="assets/figures/foresight_video_1.gif" width="">]()|
-|[<img src="assets/figures/baseline_video_2.gif" width="">]()|[<img src="assets/figures/foresight_video_2.gif" width="">]()|
+|[<img src="assets/figures/baseline_video_1.gif" width="">]()|[<img src="assets/figures/static_video_1.gif" width="">]()|[<img src="assets/figures/foresight_video_1.gif" width="">]()|
+|[<img src="assets/figures/baseline_video_2.gif" width="">]()|[<img src="assets/figures/static_video_2.gif" width="">]()|[<img src="assets/figures/foresight_video_2.gif" width="">]()|
 
 ## ⚙️ Environment Setup
 
