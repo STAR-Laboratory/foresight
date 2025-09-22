@@ -2,7 +2,7 @@
 
 **Foresight** proposes adaptive coarse grained reuse framework for accelerating text-to-video generation models while maintaining video quality.
 
-This repository contains the source code implementation of [Foresight](https://foresight_arXiv.co/).
+This repository contains the source code implementation of [Foresight](https://arxiv.org/abs/2506.00329).
 
 This source code is available under the [Apache 2.0 License](LICENSE).
 
@@ -32,10 +32,6 @@ Right now, **Foresight** has been tested on a 1xA100 node for `Open-Sora`, `Latt
 We welcome contributions to evaluate **Foresight** across different models.
 
 ## 🏁 Using Foresight
-
-### Supported Models
-
-Currently Foresight supports Open-Sora, Latte and CogVideoX models.
 
 ### Foresight Configuration
 
@@ -88,9 +84,9 @@ Foresight has been implemented on top of [VideoSys](https://github.com/NUS-HPC-A
   title={Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation},
   author={Adnan, Muhammad and Kurella, Nithesh and Arunkumar, Akhil and Nair, Prashant},
   year={2025},
-  eprint={XXXX.XXXXX},
+  eprint={2506.00329},
   archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/XXXX.XXXXX},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2506.00329}, 
 }
 ```
