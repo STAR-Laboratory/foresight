@@ -10,7 +10,7 @@
  video generation computationally expensive. Static caching mitigates this by reusing features across fixed steps but fails to adapt to generation dynamics, leading to suboptimal trade-offs between speed and quality. We introduce **Foresight**,  an adaptive layer-reuse technique that reduces computational redundancy across denoising steps while preserving baseline performance. **Foresight** dynamically identifies and reuses DiT block outputs for all layers across steps, adapting to generation parameters such as resolution and denoising schedules to optimize efficiency. **Foresight** achieves up to 1.63× end-to-end speedup, while maintaining video quality.
 
 <p align="center" width="100%">
-    <img width="95%" src="images/foresight_speedupvideo.mp4"><br>
+    <img width="95%" src="images/foresight_speedupvideo.gif"><br>
     <em>Comparison of 720p, 6sec video generation speeds between Baseline and Foresight using CogVideoX model.</em>
 </p>
 
