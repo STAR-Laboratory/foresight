@@ -63,7 +63,7 @@ Below Table compares the video quality of Foresight with static reuse methods. W
 
 ### Adaptive Behavior
 
-To quantify the adaptive behavior of Foresight, Figure 3(a) presents absolute latency for all methods across prompts from the Open-Sora prompt set.Static reuse methods exhibit consistent latency due to fixed reuse schedules. In contrast Foresight balances speed and quality based on scene complexity, enabling dynamic reuse for improved video quality and inference speedup.
+To quantify the adaptive behavior of Foresight, Figure 3(Left) presents absolute latency for all methods across prompts from the Open-Sora prompt set.Static reuse methods exhibit consistent latency due to fixed reuse schedules. In contrast Foresight balances speed and quality based on scene complexity, enabling dynamic reuse for improved video quality and inference speedup.
 
 <p align="center" width="100%">
     <img width="35%" src="images/latency_variation.png">
