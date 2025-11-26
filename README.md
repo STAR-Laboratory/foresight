@@ -84,9 +84,7 @@ Foresight has been implemented on top of [VideoSys](https://github.com/NUS-HPC-A
   title={Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation},
   author={Adnan, Muhammad and Kurella, Nithesh and Arunkumar, Akhil and Nair, Prashant},
   year={2025},
-  eprint={2506.00329},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2506.00329}, 
+  booktitle = {Proceedings of the 39th International Conference on Neural Information Processing Systems},
+  location = {San Diego, CA, USA}
 }
 ```
