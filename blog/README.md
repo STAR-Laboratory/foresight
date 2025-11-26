@@ -20,8 +20,6 @@ DiTs enable high-fidelity video synthesis. However, this comes at a high computa
 
 Feature caching offers a train-free strategy for accelerating diffusion transformers by reusing intermediate activations across adjacent denoising steps. However, feature caching apply a static, uniform reuse policy across all layers and steps, which yields limited speedup and often degrades video quality and temporal coherence. Reuse suitability in text-to-video diffusion varies along three key axes: prompt, layer, and configuration dynamics. Prompts differ in visual complexity. For instance, some prompts induce static scenes while others cause rapid changes. This leads to significant variation in feature similarity across timesteps. Static reuse applies uniform caching and cannot adapt to such prompt-specific behavior. Layer-wise sensitivity analysis shows that reusing late layers degrades quality most, as these layers exhibit greater feature variation, yet static methods fail to account for this variation. Moreover, video configuration parameters such as resolution, length, and denoising schedule can drastically alter reuse patterns, even under the same prompt. These findings underscore the limitations of static reuse under dynamic generation conditions.
 
-Attention mechanism exhibit varying amounts of sparsity throughout the large number of model decoder layers. As seen in Figure 1(Left), attention sparsity significantly varies for models of the same sizes and all for the same CNN/DailyMail dataset summarization task. On the other hand, Figure 1(Right), through a cumulative distributive function (CDF) shows how the attention score is concentrated within a with small number of tokens during text generation. What this translates into for us is the importance of certain key tokens during token generation and more importantly, the relative irrelevance of a majority of tokens during the same.
-
 <p align="center" width="100%">
     <img width="95%" src="images/mse.png"><br>
     <em>Figure 1: Quantitave analysis of SpatialDiT output using  mean squared difference (MSE) across different layer, seeds, video resolutions, video timeframes and denoising steps for Open-Sora model using same prompt (Layer28 if layer not specified).</em>
@@ -68,7 +66,7 @@ To quantify the adaptive behavior of Foresight, Figure 3(a) presents absolute la
 
 <p align="center" width="100%">
     <img width="33.5%" src="images/latency_variation.png">
-    <img width="40%" src="images/latency_vs_psnr.png"><br>
+    <img width="30%" src="images/latency_vs_psnr.png"><br>
     <em>Figure 3: (Left) Latency variation across prompts from the Open-Sora set. (Right) Inference time vs video quality.</em>
 </p>
 
