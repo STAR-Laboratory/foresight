@@ -4,6 +4,7 @@
 <sup>*</sup> Work done when the author was an intern at d-Matrix.
 
 <sup>1</sup> Department of Electrical and Computer Engineering, The University of British Columbia, Vancouver, BC, Canada.
+
 <sup>2</sup> d-Matrix, Santa Clara, California, USA
 
 **TL;DR:** Diffusion Transformers (DiTs) achieve state-of-the-art results in text-to-image, text-to-video generation, and editing. However, their large model size and the quadratic cost of spatial-temporal attention over multiple denoising steps make
@@ -65,7 +66,7 @@ Below Table compares the video quality of Foresight with static reuse methods. W
 To quantify the adaptive behavior of Foresight, Figure 3(a) presents absolute latency for all methods across prompts from the Open-Sora prompt set.Static reuse methods exhibit consistent latency due to fixed reuse schedules. In contrast Foresight balances speed and quality based on scene complexity, enabling dynamic reuse for improved video quality and inference speedup.
 
 <p align="center" width="100%">
-    <img width="33.5%" src="images/latency_variation.png">
+    <img width="35%" src="images/latency_variation.png">
     <img width="30%" src="images/latency_vs_psnr.png"><br>
     <em>Figure 3: (Left) Latency variation across prompts from the Open-Sora set. (Right) Inference time vs video quality.</em>
 </p>
